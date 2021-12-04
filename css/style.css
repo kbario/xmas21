@@ -1,10 +1,3 @@
-body {
-    margin: 0px;
-    font-family: 'EB Garamond', serif;
-    font-size: 24px;
-    background-color: #276855;
-}
-
 header {
     background-color: #276855;
     width: 100%;
@@ -17,6 +10,18 @@ h1{
     font-size: 60px;
     text-shadow: 2px 2px 3px black;
 }
+
+main{
+    margin: 15px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    background-color: #276855;
+}
+
 
 #burger {
     padding: 17px 15px;
@@ -89,4 +94,8 @@ nav a {
 }
 nav.twist{
     transform: translateX(0%);
+}
+
+.scroll{
+    white-space: nowrap;
 }
