@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas 2021</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fa/css/all.css">
+
+    <!-- google -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>It's Christmas Time on the Farm!</h1>
+    </header>
+    <nav>
+        <a onclick="menu()" href="#"><i class="fa "></i> Shpeel</a>
+        <a onclick="menu()" href="#"><i class="fa "></i> Plans</a>
+        <a onclick="menu()" href="#"><i class="fa "></i> Timeline</a>
+    </nav>
+    <button onclick="menu()" id="burger">
+        <div id="burg1"></div>
+        <div id="burg2"></div>
+        <div id="burg3"></div>
+        <div id="burg4"></div>
+    </button>
+    <section id="hero"></section>
+    <main>
+        <section id="shpeel">
+            <h2>Christmas is gonna be a bit different this year!</h2>
+            <p>Chrismas on the farm is postponed until the 28<sup>th</sup> of December this year because some of us have mulitple parties we wish to attend, but none of us can teleport or wish to re-enact that hilarious episode of the <a href="https://www.imdb.com/title/tt0739937/?ref_=tt_rvi_tt_i_1">Vicar of Dibley</a>.</p>
+            <p>This is tentative atm so if you wish to attend but the postponed date still doesn't work for you then please don't hesitate to <a id="sms" href="sms: +61408039822">contact admin</a>.</p>
+        </section>
+        <section id="plan">
+            <h2>How this is gonna go down.</h2>
+            <p>You are welcome to arrive at the farm whenever you wish. </p>
+            <p>The 27<sup>th</sup> is buy-all-of-the-food day. If you have any dietary requirements please contact the <a href="sms: +16408039822">catering team</a> before this day.</p>
+            <p>Backed by popular demand and tradition, there will be christmas pudding this year so bring your wits or a mouthguard, we don't care which one.</p>
+            <p>The exchanging of gifts will happen on the 28<sup>th</sup> at 5am, sharp.</p>
+            <p>Uncle Michael's is the venue for the main event.</p>
+        </section>
+    </main>
+
+    <script>
+        function menu() {
+            const ns  = [1,2,3,4]
+            for (i in ns){
+                document.getElementById(`burg${ns[i]}`).classList.toggle('twist')
+            }
+            document.querySelector("nav").classList.toggle('twist')
+        }
+    </script>
+</body>
+</html>

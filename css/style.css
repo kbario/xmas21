@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    background-color: #276855;
+}
+
+header {
+    background-color: #276855;
+    width: 100%;
+    padding-top: 100px;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    color: #FFE6C2;
+    font-size: 60px;
+    text-shadow: 2px 2px 3px black;
+}
+
+#burger {
+    padding: 17px 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #EF5C57;
+    border-radius: 300px;
+    margin: 20px;
+    box-shadow: 3px 3px 10px black;
+    z-index: 5;
+}
+
+#burger div{
+    position: relative;
+    width: 25px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #FFE6C2;
+    transition: 0.5s;
+}
+#burg1{
+    top: 0px;
+}
+#burg2{
+    top: 3px;
+}
+#burg3{
+    top: -2px;
+}
+#burg4{
+    top: 1px;
+}
+nav {
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    width: auto;
+    padding: 20px 0px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    transform: translateX(110%);
+    transition: 0.5s;
+    text-align: end;
+}
+nav a {
+    text-decoration: none;
+    background-color: #FFE6C2;
+    padding: 5px 10px;
+    color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+#burg1.twist {
+    opacity: 0;
+}
+#burg2.twist {
+    transform: rotate(-45deg);
+}
+#burg3.twist {
+    transform: rotate(45deg);
+}
+#burg4.twist{
+    opacity: 0;
+}
+nav.twist{
+    transform: translateX(0%);
+}
