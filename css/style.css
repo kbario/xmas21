@@ -1,14 +1,17 @@
 header {
-    background-color: #276855;
+    background-color: #FFE6C2;
     width: 100%;
     padding-top: 100px;
 }
 h1{
     margin: 0px;
     text-align: center;
-    color: #FFE6C2;
+    color: #276855;
     font-size: 60px;
-    text-shadow: 2px 2px 3px black;
+    padding: 20px;
+}
+h2 {
+    color: #EF5C57;
 }
 
 main{
@@ -19,7 +22,7 @@ body {
     margin: 0px;
     font-family: 'EB Garamond', serif;
     font-size: 24px;
-    background-color: #276855;
+    background-color: #FFE6C2;
 }
 
 
@@ -98,4 +101,14 @@ nav.twist{
 
 .scroll{
     white-space: nowrap;
+}
+
+
+
+
+
+
+#mapy {
+    width: 100%;
+    height: 400px;
 }
