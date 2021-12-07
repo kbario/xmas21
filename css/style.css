@@ -7,6 +7,9 @@ header{
     position: fixed;
     top: 0;
 }
+#hh{
+    opacity: 20%;
+}
 header h3 {
     margin: 10px 30px;
 }
@@ -17,6 +20,14 @@ header h3 {
     padding-top: 50px;
     margin-top: -50px;
 }
+a{
+    background-color: #276855;
+    color: #FFE6C2;
+    box-shadow: 1px 1px 3px darkgrey;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0px 5px;
+}
 
 h1{
     margin: 0px;
@@ -25,7 +36,7 @@ h1{
     font-size: 60px;
     padding: 20px;
 }
-h2 {
+h2, h4{
     color: #EF5C57;
 }
 
@@ -98,6 +109,7 @@ nav a {
     background-color: #FFE6C2;
     padding: 5px 10px;
     color: black;
+    border-radius: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -119,9 +131,17 @@ nav.twist{
     transform: translateX(0%);
 }
 
+#kyle{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 5%;
+    max-width: 500px;
+}
 
 
-
+#where a {
+    margin-bottom: 50px;
+}
 
 
 #mapy {
@@ -129,4 +149,16 @@ nav.twist{
     height: 300px;
 }
 
+footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#addy {
+    margin-bottom: 50px;
+}
 
+hr{
+    border-style: none;
+    background-color: black;
+    height: 2px;
+}
